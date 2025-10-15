@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.ArrayList;
-public class Start {
+public class BasicSintaxe {
     public static void main(String[]args){
         Scanner input = new Scanner(System.in);
         ArrayList<Integer> sequênciadenumbers = new ArrayList<>();
