@@ -110,8 +110,19 @@ public class Loop {
             contador2+= passagem;
             System.out.println("A soma total é: " + contador2);
         }
-
-
+        // Média de números numa lista.
+        ArrayList <Integer> lista = new ArrayList<>();
+        int fim = 0; 
+        int adição = 0;
+        while (fim < 4) {
+            System.out.println("Digite um número :");
+            int num = input.nextInt();
+            lista.add(num);
+            adição += num; 
+            fim++;
+        }
+        int mediageral = adição/4;
+        System.out.printf("A média é :%d%n", mediageral);
      input.close();
     }    
 }
