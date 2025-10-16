@@ -1,10 +1,10 @@
-package main.POO;
+package main.poo;
 
 // import java.util.Scanner;
 // import java.util.ArrayList;
 
 public class main {
-    public static void soma (int a, int b){
+    static void soma (int a, int b){
        int  s = a + b;
        System.out.println(s);
     }
