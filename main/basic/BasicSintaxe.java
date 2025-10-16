@@ -1,4 +1,4 @@
-package main;
+package main.basic;
 import java.util.Scanner;
 import java.util.ArrayList;
 public class BasicSintaxe {
